@@ -1,9 +1,8 @@
-require 'spec_helper'
+attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+ 
+rooms = [ "Conference room 1","Conference room 2", "Conference room 3" , "Conference room 4" , "Conference room 5" , "Conferenece room 6" , "Conference room 7"]
 
-describe 'conference_badges' do
-
-  let(:name) {"Arel"}
-  let(:attendees) {["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]}
+attendees.zip(rooms)
   let(:badges) {[
                   "Hello, my name is Edsger.",
                   "Hello, my name is Ada.",
